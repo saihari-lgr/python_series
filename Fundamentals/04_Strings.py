@@ -56,7 +56,19 @@ print('Upper case:\t ',result.upper())
 print('length :\t ', len(result))
 print('Split :\t ',greet.split())  # by default split on space
 
+word = 'Apple, Mango, Banana'
+print(word.split(','))
 
+print('** string formatting')
+# %s use to inject string into your print statements
+print("I'm going to say %s news." %('some good'))
 
+# .format() method
+print("Yesterday {} was boring.".format('Match'))
+print("King {} returns to {}.".format('John','Palace'))
+
+# f-strings literals
+greet = 'Palace'
+print(f'Welcome to {greet}.')
 
 
